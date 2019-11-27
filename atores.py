@@ -97,6 +97,7 @@ class Passaro(Ator):
 
         :return: booleano
         """
+        #better way to implement a if boolean
         return not self._tempo_de_lancamento is None
 
     def colidir_com_chao(self):
