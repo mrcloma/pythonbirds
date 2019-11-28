@@ -75,7 +75,7 @@ class Fase():
         """
         if not self._possui_porco_ativo():
             return VITORIA
-        elif self._possui_porco_ativo():
+        elif self._possui_porco_ativo() and self._possui_passaros_ativos():
             return EM_ANDAMENTO
         else:
             return DERROTA
